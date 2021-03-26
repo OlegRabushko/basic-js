@@ -20,3 +20,10 @@ module.exports = function getSeason(date) {
   if (month >= 8 && month <= 10) season = "autumn";
   return season;
 };
+
+date = [1036, 9, 23, 13, 57, 31, 880];
+let func = () => {
+  console.log(Object.prototype.toString.call(date));
+};
+
+console.log(func());
